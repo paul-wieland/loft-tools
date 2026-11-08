@@ -6,4 +6,4 @@ Tools for the Loft app. Each folder is one tool package: `manifest.json`, `schem
 | --- | --- |
 | `tasks/` | Tasks: boards, labels, columns and due dates |
 | `whiteboard/` | Whiteboard: sticky notes, shapes, arrows and boards |
-| `name-the-tool-3edb/` | Relationship Map: people in circles, sections and boards |
+| `relationship-map/` | Relationship Map: people in circles, sections and boards |
