@@ -74,10 +74,6 @@
       "icon": "shapes",
       "files": [
         {
-          "path": ".DS_Store",
-          "sha256": "53e6aae6281774705c0197e3c6f812c8eb771081f0c13f7f945580f7e858db51"
-        },
-        {
           "path": "manifest.json",
           "sha256": "65815f2aba3d8b44b23340c0f17b6c49e95e3b007ff1d4e9ddc5f63b8be02bd5"
         },

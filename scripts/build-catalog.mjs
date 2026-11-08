@@ -7,7 +7,8 @@ import { join, relative } from 'node:path';
 const root = new URL('..', import.meta.url).pathname;
 
 function filesUnder(dir) {
-  return readdirSync(dir).flatMap((name) => {
+  // Hidden files such as .DS_Store are machine-specific, so they never belong in a tool.
+  return readdirSync(dir).filter((name) => !name.startsWith('.')).flatMap((name) => {
     const full = join(dir, name);
     return statSync(full).isDirectory() ? filesUnder(full) : [full];
   });
