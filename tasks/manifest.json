@@ -1,0 +1,15 @@
+{
+  "id": "tasks",
+  "name": "Tasks",
+  "version": "1.2.0",
+  "icon": "kanban",
+  "description": "Task board with boards, labels and a label filter, three columns, due dates, drag and drop, and a badge for tasks due today.",
+  "entry": "ui/index.js",
+  "permissions": [
+    "store"
+  ],
+  "contractVersion": 1,
+  "homeCard": {
+    "size": "small"
+  }
+}

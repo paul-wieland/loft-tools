@@ -1,0 +1,5 @@
+body { margin: 0; }
+.rm-card { display: flex; flex-direction: column; gap: 2px; padding: 14px; color: var(--ink); }
+.rm-title { font-weight: 600; margin-bottom: 4px; }
+.rm-count { font-size: 32px; font-weight: 700; line-height: 1.1; }
+.rm-card .btn { margin-top: 8px; align-self: flex-start; }

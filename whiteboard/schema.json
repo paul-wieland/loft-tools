@@ -1,0 +1,45 @@
+{
+  "collections": {
+    "boards": {
+      "fields": {
+        "name": { "type": "string", "required": true }
+      }
+    },
+    "items": {
+      "fields": {
+        "boardId": { "type": "string", "default": "" },
+        "kind": { "type": "string", "required": true },
+        "x": { "type": "number", "default": 0 },
+        "y": { "type": "number", "default": 0 },
+        "w": { "type": "number", "default": 160 },
+        "h": { "type": "number", "default": 160 },
+        "x2": { "type": "number", "default": 0 },
+        "y2": { "type": "number", "default": 0 },
+        "text": { "type": "string", "default": "" },
+        "color": { "type": "string", "default": "yellow" },
+        "fs": { "type": "number" },
+        "ff": { "type": "string" },
+        "bold": { "type": "boolean" },
+        "italic": { "type": "boolean" },
+        "underline": { "type": "boolean" },
+        "strike": { "type": "boolean" },
+        "ha": { "type": "string" },
+        "va": { "type": "string" },
+        "tc": { "type": "string" },
+        "stroke": { "type": "string" },
+        "sw": { "type": "number" },
+        "dash": { "type": "string" },
+        "opacity": { "type": "number" },
+        "rot": { "type": "number" },
+        "z": { "type": "number" },
+        "locked": { "type": "boolean" },
+        "head": { "type": "string" },
+        "curve": { "type": "boolean" },
+        "from": { "type": "string", "default": "" },
+        "to": { "type": "string", "default": "" },
+        "fromPort": { "type": "string", "default": "" },
+        "toPort": { "type": "string", "default": "" }
+      }
+    }
+  }
+}

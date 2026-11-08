@@ -1,0 +1,68 @@
+{
+  "collections": {
+    "boards": {
+      "fields": {
+        "name": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    "columns": {
+      "fields": {
+        "key": {
+          "type": "string",
+          "required": true
+        },
+        "label": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    "settings": {
+      "fields": {
+        "key": {
+          "type": "string",
+          "required": true
+        },
+        "blur": {
+          "type": "boolean",
+          "default": false
+        },
+        "boardId": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "tasks": {
+      "fields": {
+        "title": {
+          "type": "string",
+          "required": true
+        },
+        "description": {
+          "type": "string",
+          "default": ""
+        },
+        "due": {
+          "type": "string",
+          "default": ""
+        },
+        "status": {
+          "type": "string",
+          "default": "todo"
+        },
+        "boardId": {
+          "type": "string",
+          "default": ""
+        },
+        "labels": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    }
+  }
+}

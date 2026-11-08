@@ -1,0 +1,15 @@
+{
+  "id": "name-the-tool-3edb",
+  "name": "Relationship Map",
+  "version": "1.1.0",
+  "icon": "compass",
+  "description": "Map the people in your life across four circles of closeness, in sections like family, friends and work. Several boards.",
+  "entry": "ui/index.js",
+  "permissions": [
+    "store"
+  ],
+  "homeCard": {
+    "size": "small"
+  },
+  "contractVersion": 1
+}

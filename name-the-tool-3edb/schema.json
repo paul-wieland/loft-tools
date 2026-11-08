@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "collections": {
+    "boards": {
+      "fields": {
+        "name": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    "settings": {
+      "fields": {
+        "key": {
+          "type": "string",
+          "default": "ui"
+        },
+        "boardId": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "sections": {
+      "fields": {
+        "name": {
+          "type": "string",
+          "required": true
+        },
+        "color": {
+          "type": "string",
+          "default": "yellow"
+        },
+        "boardId": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "people": {
+      "fields": {
+        "name": {
+          "type": "string",
+          "required": true
+        },
+        "note": {
+          "type": "string",
+          "default": ""
+        },
+        "ring": {
+          "type": "number",
+          "default": 1
+        },
+        "sectionId": {
+          "type": "string",
+          "default": ""
+        },
+        "boardId": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    }
+  }
+}
