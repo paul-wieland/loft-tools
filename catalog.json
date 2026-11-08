@@ -70,7 +70,7 @@
       "id": "whiteboard",
       "name": "Whiteboard",
       "version": "1.1.0",
-      "description": "Miro-like infinite whiteboard: sticky notes, shapes, text, lines, rich text formatting, resize/rotate, layers, undo. Saved automatically.",
+      "description": "Infinite whiteboard: sticky notes, shapes, text, lines, rich text formatting, resize/rotate, layers, undo. Saved automatically.",
       "icon": "shapes",
       "files": [
         {
@@ -79,7 +79,7 @@
         },
         {
           "path": "manifest.json",
-          "sha256": "7b2573cba9c431f9cd60057a89fc4927f6784b88b07f99bb490dd050f5924b7c"
+          "sha256": "65815f2aba3d8b44b23340c0f17b6c49e95e3b007ff1d4e9ddc5f63b8be02bd5"
         },
         {
           "path": "schema.json",
