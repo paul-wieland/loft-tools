@@ -1,0 +1,107 @@
+{
+  "tools": [
+    {
+      "id": "relationship-map",
+      "name": "Relationship Map",
+      "version": "1.1.0",
+      "description": "Map the people in your life across four circles of closeness, in sections like family, friends and work. Several boards.",
+      "icon": "compass",
+      "files": [
+        {
+          "path": "manifest.json",
+          "sha256": "663a6a37d10e8f02285d3b41b98aa5c9c9c53d46b4be660548870c773d637ce3"
+        },
+        {
+          "path": "schema.json",
+          "sha256": "7788b3a82a04e73284a9f6a071fd27949b2ae4d7023b78d6f4b8566108fc1a53"
+        },
+        {
+          "path": "ui/card.css",
+          "sha256": "9118294b777e5b117a4b02b452ab53fddd0af69fa066268d260aefebcaa8fa34"
+        },
+        {
+          "path": "ui/card.js",
+          "sha256": "aa80f79c72ee1154f6f5ce599a2caee87a4d8372f3df7d8c9249b9bf1775b44c"
+        },
+        {
+          "path": "ui/index.js",
+          "sha256": "2131cfcd11734eb22daae86eb25884204fd377eb0600d3e9e8a07cec57d78fda"
+        },
+        {
+          "path": "ui/styles.css",
+          "sha256": "50bc0b91a14b46a5d452c9971a904e73ed957c95642483ec2a4e2a4f2de09fc4"
+        }
+      ]
+    },
+    {
+      "id": "tasks",
+      "name": "Tasks",
+      "version": "1.2.0",
+      "description": "Task board with boards, labels and a label filter, three columns, due dates, drag and drop, and a badge for tasks due today.",
+      "icon": "kanban",
+      "files": [
+        {
+          "path": "manifest.json",
+          "sha256": "a36835fa40fc9795ff1e206c093a52f1651a501e15975d1f28bb23c40f6137ae"
+        },
+        {
+          "path": "schema.json",
+          "sha256": "02aaa5ec6fa49ebe6e942b36b10f39c13d8e64a6aa9a7af4d1df10679a9f9c45"
+        },
+        {
+          "path": "ui/card.css",
+          "sha256": "d50bcde11e5c8fd9a1ec30d396e62c6438702307fa7594c96165b50f1f93c8b0"
+        },
+        {
+          "path": "ui/card.js",
+          "sha256": "e2dcd47588b6b8ab5798de8359250315473ab870a20fe35169ce117ca5f6d366"
+        },
+        {
+          "path": "ui/index.js",
+          "sha256": "2270076fc6b7e34a13256d9798e0195d54e86ac631fe6fb6a3f6383cc09cb8c4"
+        },
+        {
+          "path": "ui/styles.css",
+          "sha256": "6e361dc3e2f1cd1c8c1a7bc3fea920a8f2f74e85f20257eac1a4c011e1182ce8"
+        }
+      ]
+    },
+    {
+      "id": "whiteboard",
+      "name": "Whiteboard",
+      "version": "1.1.0",
+      "description": "Miro-like infinite whiteboard: sticky notes, shapes, text, lines, rich text formatting, resize/rotate, layers, undo. Saved automatically.",
+      "icon": "shapes",
+      "files": [
+        {
+          "path": ".DS_Store",
+          "sha256": "53e6aae6281774705c0197e3c6f812c8eb771081f0c13f7f945580f7e858db51"
+        },
+        {
+          "path": "manifest.json",
+          "sha256": "7b2573cba9c431f9cd60057a89fc4927f6784b88b07f99bb490dd050f5924b7c"
+        },
+        {
+          "path": "schema.json",
+          "sha256": "7cbf5d9af6d329e1f2e439a6c4e1b3eb930211c7c1c9c176bd1548a85f276740"
+        },
+        {
+          "path": "ui/card.css",
+          "sha256": "1ecfedb56665d3c88ec83f41c547e87e859f9a1f596ef9a151ccec87ab9cd27c"
+        },
+        {
+          "path": "ui/card.js",
+          "sha256": "73a8d752fea5e50d120d2b62d13f9ed833637ca1e97cd7442587afd098f5d2a7"
+        },
+        {
+          "path": "ui/index.js",
+          "sha256": "09cf3c95665bb372bcf50e439a3d0830c0cc820890420d868ede01741b2bdccf"
+        },
+        {
+          "path": "ui/styles.css",
+          "sha256": "87a951b0bcda9279283c672bc34cbc0367a234d84814a5a71fb77b6697aba2ba"
+        }
+      ]
+    }
+  ]
+}
