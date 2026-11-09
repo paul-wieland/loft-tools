@@ -1,0 +1,40 @@
+{
+  "collections": {
+    "notebooks": {
+      "fields": {
+        "name": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    "pages": {
+      "fields": {
+        "notebookId": {
+          "type": "string",
+          "default": ""
+        },
+        "title": {
+          "type": "string",
+          "default": "Untitled"
+        },
+        "body": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "settings": {
+      "fields": {
+        "key": {
+          "type": "string",
+          "required": true
+        },
+        "privacy": {
+          "type": "boolean",
+          "default": false
+        }
+      }
+    }
+  }
+}

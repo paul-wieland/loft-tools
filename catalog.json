@@ -1,6 +1,31 @@
 {
   "tools": [
     {
+      "id": "notes",
+      "name": "Notes",
+      "version": "1.0.0",
+      "description": "Notebooks with pages, rich text, bullet and numbered lists, and checklists. Saved automatically.",
+      "icon": "notebook-pen",
+      "files": [
+        {
+          "path": "manifest.json",
+          "sha256": "30d8798d98dd0c818e3995ae2b77aac1b39e206e0738c71919fe3406766571de"
+        },
+        {
+          "path": "schema.json",
+          "sha256": "c7d923d34c8af3d316e1741f4515a5f6fe7ff3661eac9af68d8de715721f0e81"
+        },
+        {
+          "path": "ui/index.js",
+          "sha256": "521dbb01bd8448a926b97913657cc55e9f281293f46776cc07ff1a0c117c47e4"
+        },
+        {
+          "path": "ui/styles.css",
+          "sha256": "977bddcba8295bde13db307c55e594f5900016080ae5f8c82183d27e1e47d8c5"
+        }
+      ]
+    },
+    {
       "id": "relationship-map",
       "name": "Relationship Map",
       "version": "1.1.0",
